@@ -1,0 +1,15 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++STARTED+++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+1. 	INSTALL SASS vào project:
+	npm install -g sass 
+
+2. Build sass:
+syntax: sass --watch input.scss:output.css
+	sass --watch 	YOUR_PATH\MyStyle.scss:YOUR_PATH\MyStyle.css
+	sass --w 		YOUR_PATH\MyStyle.scss:YOUR_PATH\MyStyle.css
+
+lệnh trên sẽ build ra 2 file khác:
+	i/ 	MyStyle.css: file này được sử dụng trong your_index.html
+	ii/	MyStyle.css.map: file nay là file biên dịch không dùng
