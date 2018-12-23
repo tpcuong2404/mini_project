@@ -1,0 +1,10 @@
+INSTALL:
+	+ ANGULAR: 
+		npm install -g @angular/cli
+	+ CREATE APP-ANGULAR: choice (scss)
+		ng new app-angular
+		npm install node-sass
+	+ PRIMENG:
+		npm install primeng --save
+		npm install primeicons --save
+		npm install bootstrap@3.3.7 --save	
