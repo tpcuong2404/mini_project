@@ -1,0 +1,13 @@
++ FOLDER_libs & FOLDER_components: là những FOLDER_SUB chứa các module nhỏ. 
+nó sẽ được import vào FOLDER_ROOT để tổng hợp lại & sử dụng.
+
++ FOLDER_views: là FOLDER_ROOT.
+
++ Phân biệt SUB và ROOT: dựa vào nguyên tắc đặt tên
+	FILE_SUB	="_myFile.scss" 
+	FILE_ROOT	="File.scss"
+	
+=> các FILE_SUB: 	không được sử dụng trực tiếp mà chỉ dùng để import vào các FILE_ROOT cần thiết sử dụng chúng.
+					không cần Build FILE_SUB.scss thành css.
+					chỉ cần import FILE_SUB.scss vào File_ROOT.scss.
+					Việc Build scss => css chỉ làm trên những FILE_ROOT.
